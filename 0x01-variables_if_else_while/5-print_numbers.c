@@ -6,20 +6,12 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	int num = 0;
 
-	while (ch <= 'z')
+	while (num < 10)
 	{
-		if (ch == 'q' || ch == 'e')
-		{
-			ch++;
-			continue;
-		}
-		else
-		{
-			putchar(ch);
-			ch++;
-		}
+		printf("%d", num);
+		num++;
 	}
 	putchar('\n');
 	return (0);
