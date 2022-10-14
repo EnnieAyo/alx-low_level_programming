@@ -4,4 +4,6 @@
 - 3-name- renames a complied file
 - 4-puts.c- outputs a string to standard output using puts()
 - 5-printf.c- outputs a string to standard output using printf()
+- 6-size.c- outputs the sizes of various datatypes`i
+---
 
