@@ -2,4 +2,5 @@
 - 1-compiler- complies the file but does not link
 - 2-assembler- generates assembly code
 - 3-name- renames a complied file
+- 4-puts.c- outputs a string to standard output use puts()
 
