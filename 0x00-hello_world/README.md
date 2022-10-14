@@ -7,4 +7,4 @@
 - 6-size.c- outputs the sizes of various datatypes`i
 ---
 - 100-intel- generates assembly code for intel
-
+- 101-quote.c- writes it standard error
