@@ -6,4 +6,5 @@
 - 5-printf.c- outputs a string to standard output using printf()
 - 6-size.c- outputs the sizes of various datatypes`i
 ---
+- 100-intel- generates assembly code for intel
 
