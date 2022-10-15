@@ -11,7 +11,7 @@ int main(void)
 	do {
 		putchar(ch);
 		ch--;
-	} while (ch != 'a');
+	} while (ch >= 'a');
 
 	putchar('\n');
 	return (0);
