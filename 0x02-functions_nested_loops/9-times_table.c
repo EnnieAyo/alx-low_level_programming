@@ -20,7 +20,7 @@ void times_table(void)
 			tens = product / 10;
 			units = product % 10;
 
-			if (product == 0)
+			if (j == 0)
 			{
 				_putchar('0');
 			}
