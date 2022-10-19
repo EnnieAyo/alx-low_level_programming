@@ -11,6 +11,7 @@ int main(void)
 	int next;
 	int hold;
 	int prev;
+	int i;
 
 	for (i = 0; i < 50; i++)
 	{
