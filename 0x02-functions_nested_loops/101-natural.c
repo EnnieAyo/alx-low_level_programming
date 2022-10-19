@@ -3,7 +3,7 @@
  * main - entry point
  * Return: always 0 (Success)
  */
-void main(void)
+int main(void)
 {
 	int sum = 0;
 	int i;
@@ -16,4 +16,5 @@ void main(void)
 		}
 	}
 	printf("%d\n", sum);
+	return (0);
 }
