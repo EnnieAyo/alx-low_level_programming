@@ -23,14 +23,14 @@ void print_to_98(int n)
 		{
 			_putchar(',');
 			_putchar(' ');
-			_putchar(tens);
-			_putchar(units);
+			_putchar(tens + '0');
+			_putchar(units + '0');
 		}
 		else
 		{
 			_putchar(',');
 			_putchar(' ');
-			_putchar(units);
+			_putchar(units + '0');
 		}
 		n++;
 	}
