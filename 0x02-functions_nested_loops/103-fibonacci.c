@@ -8,7 +8,7 @@ int main(void)
 {
 	int one = 1;
 	int two = 2;
-	long int next;
+	long int next = 0;
 	long int hold;
 	long int prev;
 	long int i;
