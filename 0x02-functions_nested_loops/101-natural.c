@@ -3,7 +3,7 @@
  * main - entry point
  * Return: always 0 (Success)
  */
-int main(void)
+void main(void)
 {
 	int sum = 0;
 	int i;
