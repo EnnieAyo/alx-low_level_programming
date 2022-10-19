@@ -8,9 +8,9 @@ int main(void)
 {
 	int one = 1;
 	int two = 2;
-	long int next;
-	long int hold;
-	long int prev;
+	long next;
+	long hold;
+	long prev;
 	int i;
 
 	for (i = 0; i < 96; i++)
