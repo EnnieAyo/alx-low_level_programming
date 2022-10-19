@@ -8,9 +8,9 @@ int main(void)
 {
 	int one = 1;
 	int two = 2;
-	long next;
-	long hold;
-	long prev;
+	unsigned long next;
+	unsigned long hold;
+	unsigned long prev;
 	int i;
 
 	for (i = 0; i < 96; i++)
@@ -19,14 +19,14 @@ int main(void)
 		{
 			next = one + two;
 			prev = two;
-			printf("1, 2, %ld", next);
+			printf("1, 2, %lu", next);
 		}
 		else
 		{
 			hold = next;
 			next = prev + next;
 			prev = hold;
-			printf(", %ld", next);
+			printf(", %lu", next);
 		}
 	}
 	printf("\n");
