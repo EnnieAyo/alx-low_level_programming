@@ -8,9 +8,9 @@ int main(void)
 {
 	int one = 1;
 	int two = 2;
-	int next;
-	int hold;
-	int prev;
+	long int next;
+	long int hold;
+	long int prev;
 	int i;
 
 	for (i = 0; i < 50; i++)
@@ -19,7 +19,7 @@ int main(void)
 		{
 			next = one + two;
 			prev = two;
-			printf("1, 2");
+			printf("1, 2, %d", next);
 		}
 		else
 		{
