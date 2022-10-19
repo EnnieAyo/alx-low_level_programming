@@ -12,7 +12,7 @@ int main(void)
 	long int hold;
 	long int prev;
 	long int i;
-	long long sum = 0;
+	long int sum = 0;
 
 	for (i = 0; next <= 4000000; i++)
 	{
@@ -31,7 +31,6 @@ int main(void)
 			sum = sum + next;
 		}
 	}
-	printf(sum);
-	printf("\n");
+	printf("%ld\n", sum);
 	return (0);
 }
