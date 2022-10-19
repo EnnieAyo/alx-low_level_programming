@@ -19,14 +19,14 @@ int main(void)
 		{
 			next = one + two;
 			prev = two;
-			printf("1, 2, %d", next);
+			printf("1, 2, %ld", next);
 		}
 		else
 		{
 			hold = next;
 			next = prev + next;
 			prev = hold;
-			printf(", %d", next);
+			printf(", %ld", next);
 		}
 	}
 	printf("\n");
