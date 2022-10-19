@@ -9,7 +9,6 @@ void print_to_98(int n)
 {
 	int tens;
 	int units;
-	int cnt;
 
 	while (n <= 98)
 	{
