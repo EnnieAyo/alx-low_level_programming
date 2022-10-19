@@ -26,14 +26,14 @@ int main(void)
 			hold = next;
 			next = prev + next;
 			prev = hold;
-			if (next < 13000000000000000000)
+			if (next < 13000000000)
 			{
 				printf(", %lu", next);
 			}
 			else
 			{
-				printf(", %lu", next / 100000000000000000);
-				printf("%lu", next % 100000000000000000);
+				printf(", %lu", next / 10000000000);
+				printf("%lu", next % 10000000000);
 			}
 		}
 	}
