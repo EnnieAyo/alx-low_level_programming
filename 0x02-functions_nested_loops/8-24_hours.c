@@ -17,6 +17,7 @@ void jack_bauer(void)
 		while (min < 24)
 		{
 			_putchar(min + '0');
+			_putchar('\n');
 		}
 	}
 }
