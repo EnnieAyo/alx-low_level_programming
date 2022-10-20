@@ -34,8 +34,8 @@ int main(void)
 			}
 			else
 			{
-				printf(", %lu", (int)  (comp / 10000000000) * 100000000);
-				printf("%lu", (int) (comp % 10000000000) * 100000000);
+				printf(", %lu", (unsigned long int)  (comp / 10000000000) * 100000000);
+				printf("%lu", (unsigned long int) (comp % 10000000000) * 100000000);
 			}
 		}
 	}
