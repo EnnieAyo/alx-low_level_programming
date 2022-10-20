@@ -6,39 +6,42 @@
  */
 int main(void)
 {
-	int one = 1;
-	int two = 2;
-	unsigned long int next;
-	unsigned long int hold;
-	unsigned long int prev;
-	float comp;
-	int i;
+	unsigned long int i; 
+	unsigned long int j;
+       	unsigned long int k;
+       	unsigned long int j1;
+       	unsigned long int j2;
+       	unsigned long int k1;
+	unsigned long int k2;
 
-	for (i = 0; i < 96; i++)
+	j = 1;
+	k = 2;
+
+	printf("%lu", j);
+
+	for (i = 1; i < 91; i++)
 	{
-		if (i == 0)
-		{
-			next = one + two;
-			prev = two;
-			printf("1, 2, %lu", next);
-		}
-		else
-		{
-			hold = next;
-			comp = (prev / 500000) + (next / 500000);
-			next = prev + next;
-			prev = hold;
-			if (next < 13000000000)
-			{
-				printf(", %lu", next);
-			}
-			else
-			{
-				printf(", %lu", (unsigned long int)  (comp / 500000) * 500000);
-				printf("%lu", (unsigned long int) (comp % 500000) * 500000);
-			}
-		}
+	printf(", %lu", k);
+	k = k + j;
+	j = k - j;
 	}
+
+	j1 = j / 1000000000;
+	j2 = j % 1000000000;
+	k1 = k / 1000000000;
+	k2 = k % 1000000000;
+
+	for (i = 92; i < 99; ++i)
+	{
+	printf(", %lu", k1 + (k2 / 1000000000));
+	printf("%lu", k2 % 1000000000);
+	k1 = k1 + j1;
+	j1 = k1 - j1;
+	k2 = k2 + j2;
+	j2 = k2 - j2;
+	}
+
 	printf("\n");
+
 	return (0);
 }
