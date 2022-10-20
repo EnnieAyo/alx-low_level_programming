@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int next;
 	unsigned long int hold;
 	unsigned long int prev;
-	unsigned long int comp;
+	unsigned long float comp;
 	int i;
 
 	for (i = 0; i < 96; i++)
@@ -34,8 +34,8 @@ int main(void)
 			}
 			else
 			{
-				printf(", %lu", (comp / 10000000000) * 100000000);
-				printf("%lu", (comp % 10000000000) * 100000000);
+				printf(", %lu", (int)  (comp / 10000000000) * 100000000);
+				printf("%lu", (int) (comp % 10000000000) * 100000000);
 			}
 		}
 	}
