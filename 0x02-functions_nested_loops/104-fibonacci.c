@@ -25,7 +25,7 @@ int main(void)
 		else
 		{
 			hold = next;
-			comp = (prev / 100000000) + (next / 100000000);
+			comp = (prev / 500000) + (next / 500000);
 			next = prev + next;
 			prev = hold;
 			if (next < 13000000000)
@@ -34,8 +34,8 @@ int main(void)
 			}
 			else
 			{
-				printf(", %lu", (unsigned long int)  (comp / 10000000000) * 100000000);
-				printf("%lu", (unsigned long int) (comp % 10000000000) * 100000000);
+				printf(", %lu", (unsigned long int)  (comp / 500000) * 500000);
+				printf("%lu", (unsigned long int) (comp % 500000) * 500000);
 			}
 		}
 	}
