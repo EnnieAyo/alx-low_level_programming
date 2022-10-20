@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int next;
 	unsigned long int hold;
 	unsigned long int prev;
-	unsigned long float comp;
+	unsigned float comp;
 	int i;
 
 	for (i = 0; i < 96; i++)
