@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	unsigned long int i; 
+	unsigned long int i;
 	unsigned long int j;
-       	unsigned long int k;
-       	unsigned long int j1;
-       	unsigned long int j2;
-       	unsigned long int k1;
+	unsigned long int k;
+	unsigned long int j1;
+	unsigned long int j2;
+	unsigned long int k1;
 	unsigned long int k2;
 
 	j = 1;
