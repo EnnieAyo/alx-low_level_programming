@@ -11,6 +11,7 @@ int main(void)
 	unsigned long int next;
 	unsigned long int hold;
 	unsigned long int prev;
+	unsigned long int comp;
 	int i;
 
 	for (i = 0; i < 96; i++)
@@ -24,6 +25,7 @@ int main(void)
 		else
 		{
 			hold = next;
+			comp = (prev / 100000000) + (next / 100000000);
 			next = prev + next;
 			prev = hold;
 			if (next < 13000000000)
@@ -32,8 +34,8 @@ int main(void)
 			}
 			else
 			{
-				printf(", %lu", next / 10000000000);
-				printf("%lu", next % 10000000000);
+				printf(", %lu", (comp / 10000000000) * 100000000);
+				printf("%lu", (comp % 10000000000) * 100000000);
 			}
 		}
 	}
