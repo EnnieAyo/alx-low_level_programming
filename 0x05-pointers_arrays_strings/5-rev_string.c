@@ -11,7 +11,7 @@ void rev_string(char *s)
 char hold[sizeof(s)];
 int i;
 
-	for (i = 0; i < sizeof(s); i++)
+	for (i = 0; i < (int) sizeof(s); i++)
 	{
 		hold[i] = s[i];
 	}
