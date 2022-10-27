@@ -9,12 +9,11 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-char hold[4000];
 int i;
 
-        for (i = 0; i <= (int) strlen(s); i++)
+        for (i = 0; i <= (int) strlen(src); i++)
         {
-                hold[i] = s[i];
+                dest[i] = src[i];
         }
-	return (hold);
+	return (dest);
 }
