@@ -13,6 +13,6 @@ int i;
 
 	for (i = sizeof(s) - 2; i >= 0; i--)
 	{
-		*(s + i) = hold[sizeof(hold - 2 - i)]
+		*(s + i) = hold[sizeof(hold - 2 - i)];
 	}
 }
