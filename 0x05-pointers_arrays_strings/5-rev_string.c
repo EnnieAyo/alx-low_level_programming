@@ -9,7 +9,7 @@
 void rev_string(char *s)
 {
 char hold[sizeof(s)];
-int i;
+long unsigned int i;
 
 	for (i = 0; i < sizeof(s); i++)
 	{
