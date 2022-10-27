@@ -8,8 +8,7 @@
  */
 void rev_string(char *s)
 {
-int n = strlen(s);
-char hold[sizeof(s)];
+char hold[4000];
 int i;
 
 	for (i = 0; i <= (int) strlen(s); i++)
@@ -21,5 +20,4 @@ int i;
 	{
 		*(s + i) = hold[strlen(hold) - 1 - i];
 	}
-	n = n + 1;
 }
