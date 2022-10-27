@@ -9,14 +9,14 @@
 void rev_string(char *s)
 {
 char hold[sizeof(s)];
-long unsigned int i;
+int i;
 
 	for (i = 0; i < sizeof(s); i++)
 	{
 		hold[i] = s[i];
 	}
 
-	for (i = sizeof(s) - 2; i >= 0; i--)
+	for (i = (int) sizeof(s) - 2; i >= 0; i--)
 	{
 		*(s + i) = hold[sizeof(hold) - 2 - i];
 	}
