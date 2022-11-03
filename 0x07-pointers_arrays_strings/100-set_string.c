@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set-string - set the value of a string
+ * set_string - set the value of a string
  * @s: param (pointer to a pointer)
  * @to: param pointer
  */
