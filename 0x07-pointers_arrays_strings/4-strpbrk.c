@@ -12,6 +12,7 @@ int j;
 char *p;
 int flag = 0;
 
+p = NULL;
 for (i = 0; s[i]; i++)
 {
 for (j = 0; accept[j]; j++)
