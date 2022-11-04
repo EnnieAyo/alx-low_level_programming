@@ -7,12 +7,11 @@
 */
 int is_prime(int x, int n)
 {
-
 if (n % x == 0)
-	return (0);
-	if (x == n / 2)
-		return (1);
-	return (is_prime(x + 1, n));
+return (0);
+if (x == n / 2)
+return (1);
+return (is_prime(x + 1, n));
 }
 /**
 * is_prime_number - check if prime
