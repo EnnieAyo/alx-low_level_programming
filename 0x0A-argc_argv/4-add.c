@@ -32,6 +32,6 @@ int main(int argc, char *argv[])
 		add = add + atoi(argv[i]);
 		}
 	printf("%d\n", add);
-	return (0);
 	}
+	return (0);
 }
